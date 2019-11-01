@@ -34,6 +34,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
+    "deploy": "git push dokku master",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
     "heroku-postbuild": "gatsby build",
