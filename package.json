@@ -36,9 +36,13 @@
     "dev": "gatsby develop",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
+    "heroku-postbuild": "gatsby build",
     "clean": "rm -rf .cache && rm -rf public"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
+  },
+  "engines": {
+    "node": ">=10.16.2 <11"
   }
 }
