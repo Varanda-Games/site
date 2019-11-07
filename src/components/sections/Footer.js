@@ -35,7 +35,7 @@ const Footer = () => (
         ) {
           childImageSharp {
             fluid(maxWidth: 960) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }

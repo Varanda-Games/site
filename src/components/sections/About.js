@@ -15,7 +15,7 @@ const About = () => (
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -26,7 +26,7 @@ const About = () => (
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -37,7 +37,7 @@ const About = () => (
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }

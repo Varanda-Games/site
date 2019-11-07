@@ -60,7 +60,7 @@ const Team = () => (
         ) {
           childImageSharp {
             fluid(maxWidth: 1600) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }
