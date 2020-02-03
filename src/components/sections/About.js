@@ -49,12 +49,12 @@ const About = () => (
           <h1>Our Games</h1>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Snooker Showdown: Pocket Warriors</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                A couch multiplayer game that mixes snooker and top down shotter games. Be the champion of Nova Brazilis and prove your valor. 
+                The game is for 2 to 4 players sharing the same arena. The team with the most pocketed balls wins. 
+                Each player can choose one ability to help your team to win the battle. 
+                <br/>In Development.<br/>Made with Unity. 
               </p>
             </div>
             <Art>
@@ -66,23 +66,23 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Rainbow Grid and the Uni</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+              The Rainbow has been shattered into fragments in the sky.
+              We, the Unianimals, need to restore The Rainbow by gathering all the pieces. 
+              Use our movements and jumps wisely.
+              <br/>In Development.<br/>Made with Unity. 
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>Mini Varanda: Minimalist Games</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
+                Our series of minimalist games and experiences
+                focusing mobile and PC.
                 <br />
                 <br />
-                Gatsby is fast in every way that matters.
               </p>
             </div>
             <Art>
