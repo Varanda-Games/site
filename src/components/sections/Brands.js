@@ -12,31 +12,26 @@ import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg';
 import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
 import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
 import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
+import { ReactComponent as GameJoltLogo } from '@images/logos/game-jolt.svg';
+import { ReactComponent as ItchioLogo } from '@images/logos/itchio-logo-black.svg';
+import { ReactComponent as TwitterLogo } from '@images/logos/icons8-twitter.svg';
 
 const LOGOS = [
   {
-    logo: AirbnbLogo,
-    link: 'https://airbnb.io',
+    logo: GameJoltLogo,
+    link: 'https://gamejolt.com/@HenriqueJardim',
   },
   {
-    logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
+    logo: ItchioLogo,
+    link: 'https://henriquejardim.itch.io/',
   },
   {
-    logo: CokeLogo,
-    link: 'https://coca-cola.com',
-  },
-  {
-    logo: NodeLogo,
-    link: 'https://nodejs.org',
-  },
-  {
-    logo: NikeLogo,
-    link: 'https://nike.com',
+    logo: TwitterLogo,
+    link: 'https://twitter.com/varandagames',
   },
   {
     logo: InstagramLogo,
-    link: 'https://instagram.com',
+    link: 'https://instagram.com/varandagames',
   },
 ];
 
@@ -57,10 +52,10 @@ const UsedBy = () => (
       }
     `}
     render={data => (
-      <Section id="brands" accent>
+      <Section id="reach" accent>
         <StyledContainer>
           <div>
-            <h1>Used by biggest in tech</h1>
+            <h1>Reach Us</h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink href={link}>{logo()}</ExternalLink>

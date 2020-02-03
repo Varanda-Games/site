@@ -2,13 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
-  url: '',
+  description: 'Varanda Games - Game development studio from Rio De Janeiro, Brazil',
+  title: 'Varanda Games',
+  url: 'htt[',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  keywords: ['game', 'site', 'varanda', 'games', 'development', 'brasil', 'rio'],
   twitter: {
-    id: '@ajayns08',
+    id: '@henriquejardim',
     img: '',
   },
   facebook: {

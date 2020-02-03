@@ -24,11 +24,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Absurd`,
-        short_name: `absurd`,
+        name: `Varanda`,
+        short_name: `varanda`,
         start_url: `/`,
-        background_color: `#8bd8ed`,
-        theme_color: `#8bd8ed`,
+        background_color: `#00FFCC`,
+        theme_color: `#00FFCC`,
         display: `minimal-ui`,
         icon: `static/favicon.svg`,
       },
@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`average`, `prata\:400,700`],
+        fonts: [`average`, `prata\:400,700` , `montserrat`, `quicksand`, `overpass`],
       },
     },
     {

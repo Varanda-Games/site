@@ -31,11 +31,11 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Fast in
+                <b>GAMES</b>
                 <br />
-                every way
+                made in Rio, Brazil
                 <br />
-                that matters
+                to have <b>fun</b>
               </h1>
               <br />
               <p>

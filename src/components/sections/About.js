@@ -46,6 +46,7 @@ const About = () => (
     render={data => (
       <Section id="about">
         <Container>
+          <h1>Our Games</h1>
           <Grid>
             <div>
               <h2>Speed past the competition</h2>
