@@ -52,7 +52,7 @@ const About = () => (
               <h2>Snooker Showdown: Pocket Warriors</h2>
               <p>
                 A local multiplayer game that mixes snooker and top down shooter genres. Prove your valor and be the champion of Nova Brazilis. 
-                The game is for 2 to 4 players sharing the same arena.   
+                The game for 2 to 4 players sharing the same arena.   
                 Each player can choose one ability to help your team to win the battle. 
                 <br/>In Development.<br/>Made with Unity. 
               </p>
