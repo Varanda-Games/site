@@ -51,8 +51,8 @@ const About = () => (
             <div>
               <h2>Snooker Showdown: Pocket Warriors</h2>
               <p>
-                A couch multiplayer game that mixes snooker and top down shotter games. Be the champion of Nova Brazilis and prove your valor. 
-                The game is for 2 to 4 players sharing the same arena. The team with the most pocketed balls wins. 
+                A local multiplayer game that mixes snooker and top down shooter genres. Prove your valor and be the champion of Nova Brazilis. 
+                The game is for 2 to 4 players sharing the same arena.   
                 Each player can choose one ability to help your team to win the battle. 
                 <br/>In Development.<br/>Made with Unity. 
               </p>
@@ -69,8 +69,8 @@ const About = () => (
               <h2>Rainbow Grid and the Uni</h2>
               <p>
               The Rainbow has been shattered into fragments in the sky.
-              We, the Unianimals, need to restore The Rainbow by gathering all the pieces. 
-              Use our movements and jumps wisely.
+              We, the Unianimals, need to restore The Rainbow by gathering all the small pieces. 
+              Use your movements and jumps wisely.
               <br/>In Development.<br/>Made with Unity. 
               </p>
             </div>
