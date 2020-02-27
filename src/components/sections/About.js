@@ -44,17 +44,15 @@ const About = () => (
       }
     `}
     render={data => (
-      <Section id="about">
+      <Section id="games">
         <Container>
           <h1>Our Games</h1>
           <Grid>
             <div>
               <h2>Snooker Showdown: Pocket Warriors</h2>
               <p>
-                A local multiplayer game that mixes snooker and top down shooter genres. Prove your valor and be the champion of Nova Brazilis. 
-                The game for 2 to 4 players sharing the same arena.   
-                Each player can choose one ability to help your team to win the battle. 
-                <br/>In Development.<br/>Made with Unity. 
+                Prove your valor and be the champion of Nova Brazilis' most popular sport in a local multiplayer game that mixes snooker and top down shooter genres. 2 to 4 players share the same arena, and are split into two teams, with each player able to choose an ability to help their team win the battle.
+                <small><br/>In Development.<br/>Made with Unity.</small> 
               </p>
             </div>
             <Art>
@@ -68,10 +66,8 @@ const About = () => (
             <div>
               <h2>Rainbow Grid and the Uni</h2>
               <p>
-              The Rainbow has been shattered into fragments in the sky.
-              We, the Unianimals, need to restore The Rainbow by gathering all the small pieces. 
-              Use your movements and jumps wisely.
-              <br/>In Development.<br/>Made with Unity. 
+              The arrogant Unigiraffe, refusing to lower her neck to pass under the Rainbow, shattered it and split its pieces all over the sky. The Unicorn wants to restore the Rainbow, but he needs to use his Moves and Jumps wisely to beat all puzzles in the Sky Worlds and collect all the pieces.
+              <br/><small>In Development.<br/>Made with Unity.</small> 
               </p>
             </div>
           </Grid>

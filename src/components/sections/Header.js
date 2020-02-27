@@ -23,7 +23,7 @@ const Header = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper>
+      <HeaderWrapper id="we make">
         <Container>
           <Grid>
             <Art>
@@ -39,9 +39,9 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
-                </StyledExternalLink>
+                {/* <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                 Check out source &nbsp;&#x2794;
+                </StyledExternalLink> */}
               </p>
             </Text>
           </Grid>
