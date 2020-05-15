@@ -64,9 +64,10 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Rainbow Grid and the Uni</h2>
+              <h2>Chill Hop Quest</h2>
               <p>
-              The arrogant Unigiraffe, refusing to lower her neck to pass under the Rainbow, shattered it and split its pieces all over the sky. The Unicorn wants to restore the Rainbow, but he needs to use his Moves and Jumps wisely to beat all puzzles in the Sky Worlds and collect all the pieces.
+              
+A stripped-down unicorn, in search of musical inspiration, leaning against a tree to relax a little while listening to Chillhop. Achieve your inspiration in a relaxing puzzle in 60 levels.
               <br/><small>In Development.<br/>Made with Unity.</small> 
               </p>
             </div>

@@ -8,22 +8,22 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Henrique Jardim',
-    image: 'josh.jpg',
+    image: 'henrique-min.png',
     role: 'Game Design/Tech',
   },
   {
     name: 'Daniel Guimarães',
-    image: 'martin.jpg',
+    image: 'daniel.jpg',
     role: 'Game Design/Art',
   },
   {
     name: 'Gabriel Raposo',
-    image: 'todd.jpg',
+    image: 'raposo.jpg',
     role: 'Game Design/Tech',
   },
   {
     name: 'Thiago Luiz Silva',
-    image: 'todd.jpg',
+    image: 'thiago.png',
     role: 'Backend',
   },
 
