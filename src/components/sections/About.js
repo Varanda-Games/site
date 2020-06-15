@@ -9,9 +9,9 @@ const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_fast: file(
+        art_sinucashowdown: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
+          name: { eq: "promo_sinucashowdown2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -20,9 +20,20 @@ const About = () => (
           }
         }
 
-        art_learn: file(
+        art_chqiosbanner: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "chqiosbanner" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        art_chillhopquest: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "chqbanner" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -52,23 +63,29 @@ const About = () => (
               <h2>Snooker Showdown: Pocket Warriors</h2>
               <p>
                 Prove your valor and be the champion of Nova Brazilis' most popular sport in a local multiplayer game that mixes snooker and top down shooter genres. 2 to 4 players share the same arena, and are split into two teams, with each player able to choose an ability to help their team win the battle.
-                <small><br/>In Development.<br/>Made with Unity.</small> 
+                <small><br />In Development.<br />Made with Unity.</small>
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.art_sinucashowdown.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
+              <Img fluid={data.art_chillhopquest.childImageSharp.fluid} />
             </Art>
             <div>
               <h2>Chill Hop Quest</h2>
               <p>
-              
-A stripped-down unicorn, in search of musical inspiration, leaning against a tree to relax a little while listening to Chillhop. Achieve your inspiration in a relaxing puzzle in 60 levels.
-              <br/><small>In Development.<br/>Made with Unity.</small> 
+                Join Hoody in his search for inspiration to become a Chillhop producer. Chill Hop Quest is a puzzle game where new mechanics are introduced continuously as you advance. Different tiles interact in different ways with the player, and combining the ones you've seen with each new kind enables entirely new strategies.
+              <br /><small>In Pre-order.<br />Made with Unity.</small>
+                <br />
+               
+                <Grid style={{ alignItems: 'left', justifyItems: 'left' }}>
+                <a target='_blank' href='https://play.google.com/store/apps/details?id=games.varanda.chillhop&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style={{ width: 200 + 'px' }} /></a>
+                <a target='_blank' href='https://apps.apple.com/us/app/chill-hop-quest/id1511425946?ls=1'>
+                  <Img fluid={data.art_chqiosbanner.childImageSharp.fluid} style={{ width: 170 + 'px' }} /></a>
+                </Grid>
               </p>
             </div>
           </Grid>
@@ -122,8 +139,8 @@ const Grid = styled.div`
     }
 
     ${props =>
-      props.inverse &&
-      `
+    props.inverse &&
+    `
         ${Art} {
           order: 2;
         }

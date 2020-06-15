@@ -23,7 +23,7 @@ const LOGOS = [
   },
   {
     logo: ItchioLogo,
-    link: 'https://henriquejardim.itch.io/',
+    link: 'https://studiovarandagames.itch.io/',
   },
   {
     logo: TwitterLogo,
