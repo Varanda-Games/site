@@ -17,14 +17,9 @@ const TEAM = [
     role: 'Game Design/Art',
   },
   {
-    name: 'Gabriel Raposo',
-    image: 'raposo.jpg',
-    role: 'Game Design/Tech',
-  },
-  {
     name: 'Thiago Luiz Silva',
     image: 'thiago.png',
-    role: 'Backend',
+    role: 'Backend Tech',
   },
 
 ];
